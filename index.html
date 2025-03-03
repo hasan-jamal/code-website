@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code sa</title>
+    <link rel="icon" href="./images/logo.svg">
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- Slick Slider -->
+    <link rel="stylesheet" href="./css/slick slider/animate.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slick.min.css">
+    <link rel="stylesheet" href="./css/slick slider/slickSlider.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--Plyr CSS-->
+    <link rel="stylesheet" href="./css/plyr/plyr.css">
+</head>
+
+<body>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/logo.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/logo-white.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="font-medium active">Home</a>
+                    <div class="border"></div>
+                    <a href="./water.html" class="font-medium">About us</a>
+                    <div class="border"></div>
+                    <a href="./energy.html" class="font-medium">Our services</a>
+                    <div class="border"></div>
+                    <a href="./caseStudies.html" class="font-medium">Our partners</a>
+                    <div class="border"></div>
+                    <a href="./libraryMedia.html" class="font-medium">Blogs</a>
+                    <div class="border"></div>
+                    <button class="btn-blue font-bold" onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header class="header px-120">
+        <div class="d-flex align-items-center justify-content-between fx-header">
+            <div class="logo-header"><img src="./images/logo.svg" alt="logo image"></div>
+            <div class="d-flex links-header gap20">
+                <a href="" class="font-medium color-linearGradient linkStyle">Home</a>
+                <a href="" class="font-medium linkStyle">About us</a>
+                <div class="btnServices">
+                    <button type="button">
+                        <span class="font-medium linkStyle">Our services</span>
+                        <img src="" alt="">
+                    </button>
+                    <div class="listServices">
+                        <div class="listPart">
+                            <div class="backService backServiceActive"><span class="font-medium">IT management</span>
+                            </div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium active">Database Consulting</a>
+                                <a href="" class="font-medium">Cloud Integration Support</a>
+                                <a href="" class="font-medium">Clouding Storage</a>
+                                <a href="" class="font-medium">Remote Onsite Support</a>
+                                <a href="" class="font-medium">IT Consulting</a>
+                                <a href="" class="font-medium">Cyber Security</a>
+                                <a href="" class="font-medium">Internet & voip</a>
+                                <a href="" class="font-medium">Network Setup & Support</a>
+                                <a href="" class="font-medium">System Management</a>
+                                <a href="" class="font-medium">Disaster Recovery</a>
+                            </div>
+                        </div>
+                        <div class="listPart">
+                            <div class="backService"><span class="font-medium">IT infrastructure</span></div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium">DEVOPS</a>
+                                <a href="" class="font-medium">Infrastructure Management</a>
+                            </div>
+                        </div>
+                        <div class="listPart">
+                            <div class="backService"><span class="font-medium">Data Services</span></div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium">Analysis Services</a>
+                                <a href="" class="font-medium">Custom Analysis Service</a>
+                                <a href="" class="font-medium">Advanced Analytics</a>
+                                <a href="" class="font-medium">BIG DATA</a>
+                                <a href="" class="font-medium">Data Warehouse Modernization</a>
+                                <a href="" class="font-medium">Advanced Analytics</a>
+                            </div>
+                        </div>
+                        <div class="listPart">
+                            <div class="backService"><span class="font-medium">Development</span></div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium">Web Development</a>
+                                <a href="" class="font-medium">Mobile App Development</a>
+                                <a href="" class="font-medium">Social Media Solutions</a>
+                                <a href="" class="font-medium">E-commerce Solutions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="font-medium linkStyle">Our partners</a>
+                <a href="" class="font-medium linkStyle">Blogs</a>
+            </div>
+            <div class="btn-header"><button class="font-medium btn-linearGradient color-white" type="button">Join
+                    us</button></div>
+        </div>
+    </header>
+    <main>
+        <section class="sectionOne">
+            <div class="sectionOne-container px-120">
+                <h1 class="font-bold text-center" data-aos="fade-up" data-aos-duration="1000">Welcome to <span
+                        class="color-linearGradient">Code</span></h1>
+                <p class=" font-medium p-head text-center" data-aos="fade-up" data-aos-duration="500">Inspire your
+                    vision</p>
+                <div class="d-flex fx-sectionOne">
+                    <div class="d-flex justify-content-between align-items-end part1-sectionOne">
+                        <img src="./images/img-sectionOne.svg" alt="img section One" class="img-sectionOne">
+
+                        <div class="texts-side">
+                            <div class="d-flex fxHead-texts align-items-center">
+                                <span class="font-medium">Our story</span>
+                                <div class="border"></div>
+                            </div>
+                            <p class="style-font">We live in a world where competition in the business world</p>
+                            <div class="d-flex fxLast-texts">
+                                <img src="./images/arrow-linear.svg" alt="arrow linear" class="arrow-linear">
+                                <p class="mb-0 style-font">is constantly rising and the need to be the best is greater
+                                    than ever
+                                    before.</p>
+                            </div>
+                        </div>
+                        <div class="button-side">
+                            <button class="btn-linearGradient" type="button" onclick="window.location.href=''">
+                                <span class="font-semiBold color-white">Know more</span>
+                                <img src="./images/arrow-up-right.svg" alt="arrow-up-right">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="d-flex part2-sectionOne">
+                        <div class="d-flex flex-column fxBox-num">
+                            <div class="d-flex fx-number">
+                                <h2 class="font-semiBold subtitle48px">16</h2>
+                                <img src="./images/plusLinear.svg" alt="plusLinear icon" class="">
+                            </div>
+                            <p class="font-light mb-0">years of experience</p>
+                        </div>
+                        <div class="d-flex flex-column fxBox-num">
+                            <div class="d-flex fx-number">
+                                <h2 class="font-semiBold subtitle48px">53</h2>
+                                <img src="./images/plusLinear.svg" alt="plusLinear icon" class="">
+                            </div>
+                            <p class="font-light mb-0">Projects done</p>
+                        </div>
+                        <div class="d-flex flex-column fxBox-num">
+                            <div class="d-flex fx-number">
+                                <h2 class="font-semiBold subtitle48px">97</h2>
+                                <img src="./images/plusLinear.svg" alt="plusLinear icon" class="">
+                            </div>
+                            <p class="font-light mb-0">Happy clients</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionTwo">
+            <div class="sectionTwo-container px-120">
+                <div class="d-flex fx-sectionTwo">
+                    <div class="part1-sectionTwo">
+                        <h4 class="font-medium color-linearGradient subtitle24px">Who we are?</h4>
+                        <h1 class="font-bold mb-0 subtitle48px" data-aos="fade-down">We are Code bring your imagination
+                            to life with <span class="color-linearGradient">AI power</span></h1>
+                    </div>
+                    <p class="style-font mb-0 subtitle24px">CODE is a leading partner for many heavy weight companies in
+                        the ICT
+                        sector, most notably Cisco, as it contributes to a large portion of Cisco’s business in Saudi
+                        Arabia. <br> <br>
+                        We live in a world where competition in the business world is constantly rising and the need to
+                        be the best is greater than ever before.</p>
+                </div>
+                <div class="fx-sectionTwoImgs d-flex align-items-center" data-aos="zoom-in">
+                    <img src="./images/sectionTwo-img1.svg" alt="Who we are img" class="sectionTwo-img1">
+                    <img src="./images/sectionTwo-img2.svg" alt="Who we are img" class="sectionTwo-img2">
+                    <div class="d-flex justify-content-center  fx-columnImages">
+                        <img src="./images/sectionTwo-img3.svg" alt="Who we are img" class="sectionTwo-img3">
+                        <img src="./images/sectionTwo-img4.svg" alt="Who we are img" class="sectionTwo-img4">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionThree">
+            <div class="sectionThree-container px-120">
+                <div class="d-flex flex-column gap24">
+                    <span class="font-medium text-center subtitle24px color-linearGradient">What we do?</span>
+                    <h1 class="text-center font-bold subtitle48px" data-aos="fade-down">Bring your imagination to life
+                        <br> with AI power
+                    </h1>
+                    <p class="mb-0 text-center subtitle24px style-font">We love helping you bring ideas to life.</p>
+                </div>
+                <div class="d-flex fx-sectionThree">
+                    <div class="d-flex sectionThree-box active">
+                        <div class="d-flex align-items-center justify-content-between sectionThree-part1">
+                            <p class="font-medium mb-0">01</p>
+                            <p class="font-medium mb-0 rotate-p">ICT Services</p>
+                        </div>
+                        <div class="sectionThree-part2">
+                            <h1 class="font-bold subtitle48px" data-aos="fade-down">The AI power at Code innovate every
+                                thing.</h1>
+                            <p class="style-font subtitle24px">We love helping you bring ideas to life. We focus on
+                                creating value by
+                                providing modern
+                                IT solutions</p>
+                            <button type="button"
+                                class="font-medium d-flex align-items-center justify-content-center">Search</button>
+                        </div>
+                    </div>
+                    <div class="d-flex sectionThree-box">
+                        <div class="d-flex align-items-center justify-content-between sectionThree-part1">
+                            <p class="font-medium mb-0">02</p>
+                            <p class="font-medium mb-0 rotate-p">ICT Services</p>
+                        </div>
+                        <div class="sectionThree-part2">
+                            <h1 class="font-bold subtitle48px" data-aos="fade-down">The AI power at Code innovate every
+                                thing.</h1>
+                            <p class="style-font subtitle24px">We love helping you bring ideas to life. We focus on
+                                creating value by
+                                providing modern
+                                IT solutions</p>
+                            <button type="button"
+                                class="font-medium d-flex align-items-center justify-content-center">Search</button>
+                        </div>
+                    </div>
+                    <div class="d-flex sectionThree-box">
+                        <div class="d-flex align-items-center justify-content-between sectionThree-part1">
+                            <p class="font-medium mb-0">03</p>
+                            <p class="font-medium mb-0 rotate-p">ICT Services</p>
+                        </div>
+                        <div class="sectionThree-part2">
+                            <h1 class="font-bold subtitle48px" data-aos="fade-down">The AI power at Code innovate every
+                                thing.</h1>
+                            <p class="style-font subtitle24px">We love helping you bring ideas to life. We focus on
+                                creating value by
+                                providing modern
+                                IT solutions</p>
+                            <button type="button"
+                                class="font-medium d-flex align-items-center justify-content-center">Search</button>
+                        </div>
+                    </div>
+                    <div class="d-flex sectionThree-box">
+                        <div class="d-flex align-items-center justify-content-between sectionThree-part1">
+                            <p class="font-medium mb-0">04</p>
+                            <p class="font-medium mb-0 rotate-p">ICT Services</p>
+                        </div>
+                        <div class="sectionThree-part2">
+                            <h1 class="font-bold subtitle48px" data-aos="fade-down">The AI power at Code innovate every
+                                thing.</h1>
+                            <p class="style-font subtitle24px">We love helping you bring ideas to life. We focus on
+                                creating value by
+                                providing modern
+                                IT solutions</p>
+                            <button type="button"
+                                class="font-medium d-flex align-items-center justify-content-center">Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionFour">
+            <div class="sectionFour-container px-120">
+                <div class="d-flex fx-sectionFour">
+                    <div class="sectionFour-part1"><img src="./images/sectionFour-slide2.svg" alt="slide img"
+                            class="slideActive" id="slideActive">
+                    </div>
+                    <div class="sectionFour-part2">
+                        <span class="color-linearGradient font-medium subtitle24px">Explore our AI blog</span>
+                        <h1 class="font-bold subtitle48px" data-aos="fade-down">Infused is at the forefront of health
+                            innovation</h1>
+                        <div class="sliderBlogs">
+                            <div class="slide"><img src="./images/sectionFour-slide2.svg" alt=""></div>
+                            <div class="slide"><img src="./images/sectionFour-slide1.svg" alt=""></div>
+                            <div class="slide"><img src="./images/sectionFour-slide3.svg" alt=""></div>
+                            <div class="slide"><img src="./images/sectionFour-slide4.svg" alt=""></div>
+                        </div>
+                        <div class="d-flex fxTexts align-items-start">
+                            <div class="fxTexts-part1">
+                                <p class="style-font mb-0">Enlightened Health Al takes your wellness journey to new
+                                    heights
+                                    with advanced
+                                    predictive analytics. Gain access to
+                                    intelligent health solutions that illuminate the path to a healthier, more informed
+                                    you... <b class="color-linearGradient readMoreBtn">Read more</b></p>
+                            </div>
+                            <div class="arrows-blogs d-flex align-items-center">
+                                <img src="./images/rightBlog.svg" alt="right arrow Blog" class="rightBlog transition3s">
+                                <img src="./images/leftBlog.svg" alt="left arrow Blog" class="leftBlog transition3s">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionFive">
+            <div class="sectionFive-container">
+                <h1 class="text-center font-bold subtitle48px">Our
+                    integration <span class="color-linearGradient">Partners</span></h1>
+                <div class="sliderLogos sliderLogos1 m-sliderLogos">
+                    <div class="slide"><img src="./images/logo1.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo2.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo3.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo4.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo5.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo6.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo7.svg" alt="logo"></div>
+                </div>
+                <div class="sliderLogos sliderLogos2">
+                    <div class="slide"><img src="./images/logo7.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo6.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo5.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo4.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo3.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo2.svg" alt="logo"></div>
+                    <div class="slide"><img src="./images/logo1.svg" alt="logo"></div>
+                </div>
+            </div>
+        </section>
+        <section class="sectionSix">
+            <div class="sectionSix-container px-120">
+                <span class="font-medium text-center subtitle24px color-linearGradient d-block">What people are
+                    saying?</span>
+                <h1 class="text-center font-bold subtitle48px">We brought <span class="color-linearGradient">their <br>
+                        ideas</span> to life
+                </h1>
+                <p class="subtitle36px text-center style-font">"The AI-powered data analysis services from Code helped
+                    us gain
+                    deeper insights
+                    into our customers and make smarter
+                    decisions. Their professionalism and execution speed make them a trusted strategic tech partner."
+                </p>
+                <p class="subtitle36px font-semiBold text-center">Jenny Wilson</p>
+                <p class="subtitle24px font-semiBold text-center margin12">CEO of Growtime</p>
+            </div>
+        </section>
+        <section class="sectionSeven">
+            <div class="sectionSeven-container px-120">
+                <div class="d-flex fx-sectionSeven">
+                    <div class="sectionSeven-part1">
+                        <span class="font-medium color-linearGradient subtitle24px d-block">You ask. We answer</span>
+                        <h1 class="subtitle48px  data-aos=" fade-down"font-bold">Frequently Asked Questions</h1>
+                    </div>
+                    <div class=" d-flex flex-column gap24 sectionSeven-part2">
+                        <div class="faqBox">
+                            <div class="d-flex justify-content-between faqBox-head transition3s" data-index="1">
+                                <h4 class="subtitle24px font-semiBold">How can I request a consultation or a quote?</h4>
+                                <img src="./images/plus-circle.svg" alt=" icon" class="faq-icon">
+                            </div>
+                            <div class="boxText" data-index="1">
+                                <p class="style-font mb-0"> You can contact us directly via the contact form on our
+                                    website
+                                    or send an email to
+                                    email@code.com, and one of our
+                                    experts will reach out to discuss your requirements and provide a suitable quote.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faqBox">
+                            <div class="d-flex justify-content-between faqBox-head transition3s" data-index="2">
+                                <h4 class="subtitle24px font-semiBold">How can I request a consultation or a quote?</h4>
+                                <img src="./images/minus-circle.svg" alt=" icon" class="faq-icon">
+                            </div>
+                            <div class="boxText" data-index="2">
+                                <p class="style-font mb-0"> You can contact us directly via the contact form on our
+                                    website
+                                    or send an email to
+                                    email@code.com, and one of our
+                                    experts will reach out to discuss your requirements and provide a suitable quote.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faqBox">
+                            <div class="d-flex justify-content-between faqBox-head transition3s" data-index="3">
+                                <h4 class="subtitle24px font-semiBold">How can I request a consultation or a quote?</h4>
+                                <img src="./images/plus-circle.svg" alt=" icon" class="faq-icon">
+                            </div>
+                            <div class="boxText" data-index="3">
+                                <p class="style-font mb-0"> You can contact us directly via the contact form on our
+                                    website
+                                    or send an email to
+                                    email@code.com, and one of our
+                                    experts will reach out to discuss your requirements and provide a suitable quote.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faqBox">
+                            <div class="d-flex justify-content-between faqBox-head transition3s" data-index="4">
+                                <h4 class="subtitle24px font-semiBold">How can I request a consultation or a quote?</h4>
+                                <img src="./images/plus-circle.svg" alt=" icon" class="faq-icon">
+                            </div>
+                            <div class="boxText" data-index="4">
+                                <p class="style-font mb-0"> You can contact us directly via the contact form on our
+                                    website
+                                    or send an email to
+                                    email@code.com, and one of our
+                                    experts will reach out to discuss your requirements and provide a suitable quote.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="faqBox" data-index="5">
+                            <div class="d-flex justify-content-between faqBox-head transition3s">
+                                <h4 class="subtitle24px font-semiBold">How can I request a consultation or a quote?</h4>
+                                <img src="./images/plus-circle.svg" alt=" icon" class="faq-icon">
+                            </div>
+                            <div class="boxText" data-index="5">
+                                <p class="style-font mb-0"> You can contact us directly via the contact form on our
+                                    website
+                                    or send an email to
+                                    email@code.com, and one of our
+                                    experts will reach out to discuss your requirements and provide a suitable quote.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container px-120">
+            <div class="fxGeneral-cards fxFooter">
+                <div class="fxFooter-part1 fxGeneral-cards-st"><img src="./images/footerImage.png" alt="footer Image">
+                </div>
+                <div class="fxFooter-part2 fxGeneral-cards-st d-flex flex-column text-center">
+                    <img src="./images/logo.svg" alt="code logo" class="logo">
+                    <p class="style-font subtitle24px">leading partner of several heavy weight companies in the ICT
+                        sector.</p>
+                    <div class="d-flex align-items-center fxFooter-icons ">
+                        <a href="" class="transition3s"><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                        <a href="" class="transition3s"><img src="./images/instgram-icon.svg" alt="facebook icon"></a>
+                        <a href="" class="transition3s"><img src="./images/twitter-icon.svg" alt="twitter icon"></a>
+                        <a href="" class="transition3s"><img src="./images/linkedin-icon.svg" alt="linkedin icon"></a>
+                    </div>
+                </div>
+                <div class="fxFooter-part3 fxGeneral-cards-st">
+                    <h2 class="font-medium subtitle36px">Contact</h2>
+                    <p class="subtitle24px style-font">Riyadh – Saudi Arabia <br>
+                        Egypt – Cairo</p>
+                    <p class="subtitle24px style-font">Need help? Call us <br>  +(***)*******</p>
+                    <p class="subtitle24px style-font mb-0">support@example.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src=" ./js/jquery/jquery.min.js">
+    </script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/slick.js"></script>
+    <!-- Landing Page -->
+    <script src="./js/landingPage.js"></script>
+    <!-- Landing Page -->
+    <script src="./js/dropdowns/dropdown-faq.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.sectionThree-box').on('click', function () {
+                $('.sectionThree-box').removeClass('active scale-animation');
+
+                $(this).addClass('active scale-animation');
+
+                setTimeout(() => {
+                    $(this).removeClass('scale-animation');
+                }, 300);
+
+                $('.sectionThree-part2').hide();
+
+                var part2 = $(this).find('.sectionThree-part2');
+                part2.show().addClass('animate-part2');
+
+                setTimeout(() => {
+                    part2.removeClass('animate-part2');
+                }, 600);
+            });
+        });
+        // /////////////////////
+
+    </script>
+</body>
+
+</html>
