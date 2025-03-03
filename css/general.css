@@ -201,7 +201,9 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
 @media (max-width:614.4px) {
    .subtitle36px{font-size: 20px;line-height: 30px;}
 }
-@media (max-width:512px) {}
+@media (max-width:512px) {
+  .subtitle48px br{display: none;}
+}
 /* ----------------------- Texts Color-------------------------- */
 .color-linearGradient{
   background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
