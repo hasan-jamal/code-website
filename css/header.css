@@ -28,7 +28,7 @@ background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
   margin-bottom: 6px;
 }
 .nav-mobile {
-  background-image: url(../images/footer-background.png);
+  background-image: url(../images/Home.svg);
   background-position: top;
   background-size: cover;
   display: inline-block;
@@ -63,8 +63,8 @@ background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
 }
 .nav-mobile .logo {
   text-align: center;
-  width: 50%;
-  margin: 0 auto 2rem auto;
+  width: 70%;
+  margin: 0 auto 3rem auto;
   display: block;
 }
 .nav-mobile .logo img {
@@ -83,19 +83,18 @@ background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
 }
 .nav-mobile .links a {
   text-decoration: none;
-  color: #e0e0e0;
-    font-family: "Plus Jakarta Sans";
+  color: #000;
   font-size: 1rem;
   letter-spacing: 1px;
 }
 .nav-mobile a:hover ,
 .nav-mobile a span:hover {
-  	color: #141CA4 ;
+  	color: #000 ;
 }
 .nav-mobile .links a.active{
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fff;
+    color: #000;
     font-size: 1.1rem;
 }
 .nav-mobile .links a svg{
@@ -157,18 +156,18 @@ nav, .hamburger, .coverNav {
   z-index: 1000;
   width: 100%;
 }
-.navbar-mobile .btn-blue{
+.navbar-mobile .btn-linearGradient{
   height: 50px;
   font-size: 17px;
   font-weight: bold;
 }
 .navbar-mobile .flex-head{
-  padding: 16px 20px;
+  padding: 24px 20px;
   box-shadow: 0px 12px 74px 0px rgba(0, 0, 0, 0.05);
   width: 100%;
   display: flex;
 }
-.navbar-mobile .flex-head img{width: 120px;object-fit: contain;}
+.navbar-mobile .flex-head img{width: 135px;object-fit: contain;}
 .sidenav-active .navbar-mobile .flex-head{display: none;}
 /* Header */
 header .fx-header{
@@ -196,12 +195,13 @@ header .btnServices .listServices{
   gap: 30px;
   display: none;
   position: absolute;
-  z-index: 1;
+  z-index: 999;
   left: 50%;
   transform: translate(-50%,0);
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  
+
 }
+header .btnServices .listServices.active{display: flex;}
 header .btnServices .listServices .listPart{
   width:215px;
 }
@@ -267,6 +267,9 @@ header .fx-header .links-header .linkStyle{font-size: 20px;}
 header .fx-header .btn-header button{width: 130px;font-size: 16px;}
 header .fx-header .logo-header img{width: 130px;}
 header .fx-header{padding: 50px 0 70px 0;}
+header .btnServices .listServices .listPart{width:150px;}
+header .btnServices .fx-listServices a{font-size: 12px;}
+.header .btnServices .listServices .backService span{font-size: 15px;}
 }
 @media (max-width:1024px) {
   .hamburger{display: block;}
@@ -274,6 +277,9 @@ header .fx-header{padding: 50px 0 70px 0;}
   header .fx-header .btn-header button{width: 100px;font-size: 14px;height: 32px;}
   header .fx-header .logo-header img{width: 100px;}
   header .fx-header{padding: 30px 0 60px 0;}
+  header .btnServices .listServices .listPart{width:120px;}
+  header .btnServices .fx-listServices a{font-size: 10px;}
+  .header .btnServices .listServices .backService span{font-size: 13px;}
 }
 @media (max-width:877.71px) {
   header .fx-header .links-header .linkStyle{font-size: 15px;}
