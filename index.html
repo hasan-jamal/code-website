@@ -48,7 +48,7 @@
                     <div class="border"></div>
                     <a href="" class="font-medium">Blogs</a>
                     <div class="border"></div>
-                    <button class="btn-linearGradient color-white font-bold"
+                    <button class="btn-linearGradient colorWhite font-bold"
                         onclick="window.location.href='contactUs.html'">Contact
                         Us</button>
                 </div>
@@ -56,14 +56,14 @@
     </div>
     <header class="header px-120">
         <div class="d-flex align-items-center justify-content-between fx-header">
-            <div class="logo-header"><img src="./images/logo.svg" alt="logo image"></div>
-            <div class="d-flex links-header gap20">
-                <a href="" class="font-medium color-linearGradient linkStyle">Home</a>
-                <a href="" class="font-medium linkStyle">About us</a>
+            <a class="logo-header" href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
+            <div class="d-flex links-header gap20 align-items-center">
+                <a href="./index.html" class="font-medium color-linearGradient linkStyle">Home</a>
+                <a href="./about.html" class="font-medium linkStyle">About us</a>
                 <div class="btnServices ">
-                    <button type="button" class="link" data-target="Industries-list">
+                    <button type="button" class="link d-flex align-items-center" data-target="Industries-list">
                         <span class="font-medium linkStyle">Our services</span>
-                        <img src="" alt="">
+                        <img src="./images/arrowDown.svg" alt="arrowDown icon">
                     </button>
                     <div class="listServices" id="Industries-list">
                         <div class="listPart">
@@ -111,10 +111,11 @@
                         </div>
                     </div>
                 </div>
-                <a href="" class="font-medium linkStyle">Our partners</a>
-                <a href="" class="font-medium linkStyle">Blogs</a>
+                <a href="./ourPartners.html" class="font-medium linkStyle">Our partners</a>
+                <a href="./blogs.html" class="font-medium linkStyle">Blogs</a>
+                <a href="./contactUs.html" class="font-medium linkStyle">Contact us</a>
             </div>
-            <div class="btn-header"><button class="font-medium btn-linearGradient color-white" type="button">Join
+            <div class="btn-header"><button class="font-medium btn-linearGradient colorWhite" type="button">Join
                     us</button></div>
         </div>
     </header>
@@ -144,7 +145,7 @@
                         </div>
                         <div class="button-side">
                             <button class="btn-linearGradient" type="button" onclick="window.location.href=''">
-                                <span class="font-semiBold color-white">Know more</span>
+                                <span class="font-semiBold colorWhite">Know more</span>
                                 <img src="./images/arrow-up-right.svg" alt="arrow-up-right">
                             </button>
                         </div>
@@ -472,39 +473,13 @@
     <script src="./js/slick slider/slick.js"></script>
     <!-- Landing Page -->
     <script src="./js/landingPage.js"></script>
-    <!-- Landing Page -->
-    <script src="./js/dropdowns/dropdown-faq.js"></script>
     <!--Navbar JS-->
     <script src="./js/navbar-pages.js"></script>
     <!-- AOS Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
-    <script>
-        $(document).ready(function () {
-            $('.sectionThree-box').on('click', function () {
-                $('.sectionThree-box').removeClass('active scale-animation');
-
-                $(this).addClass('active scale-animation');
-
-                setTimeout(() => {
-                    $(this).removeClass('scale-animation');
-                }, 300);
-
-                $('.sectionThree-part2').hide();
-
-                var part2 = $(this).find('.sectionThree-part2');
-                part2.show().addClass('animate-part2');
-
-                setTimeout(() => {
-                    part2.removeClass('animate-part2');
-                }, 600);
-            });
-        });
-        // /////////////////////
-
-    </script>
+    <script> AOS.init();</script>
+    <!-- DropDown Faq -->
+    <script src="./js/dropdowns/dropdown-faq.js"></script>
 </body>
 
 </html>

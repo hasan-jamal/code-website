@@ -15,26 +15,31 @@ function removeInterval() {
 // //////////////////////////////////////////////////////////////////////////////////////
 document.querySelectorAll(".btnServices").forEach((boxLink) => {
   const link = boxLink.querySelector(".link");
-  if (!link) return; // Ensure the link exists
+  if (!link) return;
 
   const targetId = link.getAttribute("data-target");
   const list = document.getElementById(targetId);
 
-  if (!list) return; // Ensure the target list exists
+  if (!list) return;
 
-  const showList = () => list.classList.add("active");
-  const hideList = () => list.classList.remove("active");
+  const showList = () => {
+    list.style.display = "flex";
+    list.classList.add("active");
+  };
 
-  const showCoverBack = () => divCoverBack?.classList.add("coverBack");
-  const hideCoverBack = () => divCoverBack?.classList.remove("coverBack");
+  const hideList = () => {
+    list.classList.remove("active");
+    list.addEventListener(
+      "transitionend",
+      () => {
+        if (!list.classList.contains("active")) {
+          list.style.display = "none";
+        }
+      },
+      { once: true }
+    );
+  };
 
-  boxLink.addEventListener("mouseenter", () => {
-    showList();
-    showCoverBack();
-  });
-
-  boxLink.addEventListener("mouseleave", () => {
-    hideList();
-    hideCoverBack();
-  });
+  boxLink.addEventListener("mouseenter", showList);
+  boxLink.addEventListener("mouseleave", hideList);
 });
