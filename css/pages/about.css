@@ -97,7 +97,14 @@
 .aboutSTwo {
  margin: 40px 0 116px 0;
 }
-.aboutSTwo .sliderLogos-black .slide{width: max-content;padding: 0 25px;}
+.aboutSTwo .sliderLogos-black .slide{
+    width: max-content;
+    padding: 0 25px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
 .aboutSTwo .sliderLogos-black .slide img{width: 100%;margin: auto;display: block;}
 @media (min-width:1706.67px) {}
 @media (min-width:1920px) {}
@@ -110,6 +117,7 @@
 @media (max-width:768px) {}
 @media (max-width:614.4px) {
     .aboutSTwo {margin-bottom: 80px;}
+    .aboutSTwo .sliderLogos-black .slide{padding: 0 10px;height: 100px;}
 }
 @media (max-width:512px) {}
 /* About Section Three */
@@ -127,8 +135,12 @@
     width: 58%;
 }
 @media (min-width:1706.67px) {}
-@media (min-width:1920px) {}
-@media (min-width:2048px) { }
+@media (min-width:1920px) {
+    .aboutSTwo .sliderLogos-black .slide{height: 220px;}
+}
+@media (min-width:2048px) { 
+        .aboutSTwo .sliderLogos-black .slide{height: 240px;}
+}
 @media (min-width:2304px) {}
 @media (max-width:1396.36px) {
     .aboutSThree .aboutSThree-imgs .aboutSThree-img2{bottom: -6.2rem;right: 4.3rem;}
