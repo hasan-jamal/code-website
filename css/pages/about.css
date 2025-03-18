@@ -40,9 +40,23 @@
     padding-right: 73px;
 }
 .aboutSOne .aboutSOne-content .fx-buttons{gap: 38px;align-items: end;}
-@media (min-width:1706.67px) {}
-@media (min-width:1920px) {}
-@media (min-width:2048px) { }
+@media (min-width:1706.67px) {
+    .aboutSOne .aboutSOne-content .btnOutline,
+    .aboutSOne .aboutSOne-content .btn-linearGradient{width: 300px;}
+    .aboutSOne .aboutSOne-content h2{padding-right: 100px;}
+}
+@media (min-width:1920px) {
+    .aboutSOne .aboutSOne-content .btnOutline,
+    .aboutSOne .aboutSOne-content .btn-linearGradient{width: 340px;}
+    .aboutSOne .aboutSOne-content h2{font-size: 50px;}
+    .aboutSOne .aboutSOne-content .fx-buttons{padding-bottom: 1rem;}
+}
+@media (min-width:2048px) { 
+    .aboutSOne .aboutSOne-content .btnOutline,
+    .aboutSOne .aboutSOne-content .btn-linearGradient{width: 390px;}
+    .aboutSOne .aboutSOne-content h2{font-size: 55px;}
+
+}
 @media (min-width:2304px) {}
 @media (max-width:1396.36px) {
     .aboutSOne .aboutSOne-content .fx-buttons{gap: 18px;}
@@ -221,7 +235,7 @@
 .aboutSFive .fx-trainingProgrames .box3{
     flex: 1 1 calc(27% - 20px);
     max-width: calc(27% - 0px);
-        padding-top: 2.5rem;
+    padding-top: 2.5rem;
 }
 .aboutSFive .fx-trainingProgrames .box4,
 .aboutSFive .fx-trainingProgrames .box5,
@@ -233,6 +247,8 @@
     flex: 1 1 calc(47% - 20px);
     max-width: calc(47% - 0px);
     padding: 40px;
+    background-size: cover;
+    border-radius: 30px;
 }
 .aboutSFive .fx-trainingProgrames .box2 span{
     font-size: 12px;margin-bottom: 2px;
@@ -255,9 +271,40 @@
 }
 .aboutSFive .fx-trainingProgrames .box2 .attendSection h4{white-space: pre;}
 .aboutSFive .fx-trainingProgrames .box2 .attendSection p{font-size: 14px;opacity: 0.9;}
-@media (min-width:1706.67px) {}
-@media (min-width:1920px) {}
-@media (min-width:2048px) { }
+@media (min-width:1706.67px) {
+    main .aboutSThree .aboutSThree-imgs .aboutSThree-img2{bottom: -7.5rem;}
+    main .aboutSFive .trainingProgrames-box{height: 320px;padding-top: 0rem;}
+    main .aboutSFive .fx-trainingProgrames .box1,
+    main .aboutSFive .fx-trainingProgrames .box3{padding-top: 3rem;}
+    main .aboutSFive .fx-trainingProgrames .box2{background-size: cover;border: 30px;}
+}
+@media (min-width:1920px) {
+    main .aboutSFive .trainingProgrames-box{height: 388px;}
+    .aboutSFive .trainingProgrames-box h4{margin-bottom: 16px;}
+    .aboutSFive .trainingProgrames-box img{margin-bottom: 24px;width: 100px;}
+    .aboutSFive .fx-trainingProgrames .box2{height: 400px;justify-content: space-around;}
+    .aboutSFive .fx-trainingProgrames .box2 span{font-size: 16px;}
+    main .aboutSFive .fx-trainingProgrames .box2 h1{font-size: 44px;}
+}
+@media (min-width:2048px) { 
+    main .aboutSFive .trainingProgrames-box{height: 420px;}
+    .aboutSFive .fx-trainingProgrames .box2{height: 430px;}
+    .aboutSFive .fx-trainingProgrames{gap: 32px;}
+    .aboutSFive .fx-trainingProgrames .box3{
+        flex: 1 1 calc(27% - 32px);
+        max-width: calc(27% - 0px);
+    }
+    .aboutSFive .fx-trainingProgrames .box4,
+    .aboutSFive .fx-trainingProgrames .box5,
+    .aboutSFive .fx-trainingProgrames .box6{
+        flex: 1 1 calc(33.3% - 32px);
+        max-width: calc(33.3% - 0px);
+    }
+    .aboutSFive .fx-trainingProgrames .box2{
+        flex: 1 1 calc(47% - 32px);
+        max-width: calc(47% - 0px);
+    }
+}
 @media (min-width:2304px) {}
 @media (max-width:1396.36px) {}
 @media (max-width:1228.8px) {
@@ -274,7 +321,7 @@
         padding-top: 2.5rem;
     }
     .aboutSFive .fx-trainingProgrames{justify-content: center;gap: 8px;}
- .aboutSFive .fx-trainingProgrames .box3 .trainingProgrames-texts{width: 50%;}
+    .aboutSFive .fx-trainingProgrames .box3 .trainingProgrames-texts{width: 50%;}
 }
 @media (max-width:1024px) {}
 @media (max-width:877.71px) {}
@@ -337,9 +384,21 @@
 }
 .aboutSix p{font-size: 32px;margin-top: 36px;}
 
-@media (min-width:1706.67px) {}
-@media (min-width:1920px) {}
-@media (min-width:2048px) { }
+@media (min-width:1706.67px) {
+    .aboutSix .aboutSix-div{height: 407px;}
+       .aboutSix .aboutSix-div .btn-linearGradient {width: 380px;height: 90px;font-size: 24px;}
+    .aboutSix .aboutSix-div .btn-linearGradient img{width: 30px;}
+}
+@media (min-width:1920px) {
+    .aboutSix .aboutSix-div{height: 457px;}
+    .aboutSix .aboutSix-div .btn-linearGradient {width: 429px;height: 102px;font-size: 30px;gap: 16px;}
+    .aboutSix .aboutSix-div .btn-linearGradient img{width: 40px;}
+}
+@media (min-width:2048px) {
+    .aboutSix .aboutSix-div{height: 520px;}
+    .aboutSix .aboutSix-div .btn-linearGradient {width: 480px;height: 122px;font-size: 35px;}
+    .aboutSix .aboutSix-div .btn-linearGradient img{width: 50px;}
+ }
 @media (min-width:2304px) {}
 @media (max-width:1396.36px) {}
 @media (max-width:1228.8px) {}
