@@ -47,7 +47,6 @@
     width: 45%;
     position: relative;
     border-radius: 0 0px 30px 0px;
-    overflow: hidden;
 }
 .servicesS1 .servicesS1-texts::before {
     content: "";
@@ -101,6 +100,20 @@
     .servicesS1 .back-servicesS1::after { display: none;}
     .servicesS1 .servicesS1-texts{width: 85%;padding: 32px 20px 30px 10px;}
     .servicesS1 .back-servicesS1{height: 45vh;}
+     .servicesS1 .servicesS1-texts::before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        background: transparent;
+        top: 0px;
+        transform: rotate(-180deg);
+        border-radius: 0 0 30px 0;
+        z-index: 1;
+        box-shadow: 7px 7px #ecf9ff;
+        left: auto;
+        right: -19px;
+    }
 }
 /* Section Services 2 Style */
 .servicesS2 .fx-servicesS2{gap: 20px;}
