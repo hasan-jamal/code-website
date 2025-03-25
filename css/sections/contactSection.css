@@ -1,0 +1,61 @@
+/* About Section Six */
+.contactSection{margin: 100px 0 118px 0;position: relative;}
+.contactSection .contact-text{
+    width: 100%;
+    position: absolute;
+}
+.contactSection-container{padding-top: 7rem;}
+.contactSection .contactSection-div{
+    position: relative;
+    background-image: url(../../images/Subtract-min.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 356px;
+    justify-content: space-between;
+}
+.contactSection .contactSection-div .contactSection-buttons{
+    justify-content: end;
+    align-items: end;
+    height: 100%;
+}
+.contactSection .contactSection-div .btn-linearGradient{
+    width: 322px;
+    height: 74px;
+}
+.contactSection p{font-size: 32px;margin-top: 36px;}
+
+@media (min-width:1706.67px) {
+    .contactSection .contactSection-div{height: 407px;}
+       .contactSection .contactSection-div .btn-linearGradient {width: 380px;height: 90px;font-size: 24px;}
+    .contactSection .contactSection-div .btn-linearGradient img{width: 30px;}
+}
+@media (min-width:1920px) {
+    .contactSection .contactSection-div{height: 457px;}
+    .contactSection .contactSection-div .btn-linearGradient {width: 429px;height: 102px;font-size: 30px;gap: 16px;}
+    .contactSection .contactSection-div .btn-linearGradient img{width: 40px;}
+}
+@media (min-width:2048px) {
+    .contactSection .contactSection-div{height: 520px;}
+    .contactSection .contactSection-div .btn-linearGradient {width: 480px;height: 122px;font-size: 35px;}
+    .contactSection .contactSection-div .btn-linearGradient img{width: 50px;}
+ }
+@media (min-width:2304px) {}
+@media (max-width:1396.36px) {}
+@media (max-width:1228.8px) {}
+@media (max-width:1024px) {}
+@media (max-width:877.71px) {}
+@media (max-width:768px) {}
+@media (max-width:614.4px) {
+    .contactSection .contactSection-div{
+        flex-direction: column;
+        background-size: cover;
+        background-position: right;
+    }
+    .contactSection .contactSection-div .contactSection-texts{padding: 2rem;}
+    .contactSection .contactSection-div .contactSection-texts h1{color: #fff;}
+    .contactSection .contactSection-div .contactSection-buttons{height: max-content;}
+    .contactSection p{font-size: 16px;margin-top: 24px;}
+    .contactSection-container{padding-top: 3rem;}
+}
+@media (max-width:512px) {}

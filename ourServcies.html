@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code sa</title>
+    <link rel="shortcut icon" href="//code.sa/wp-content/uploads/2022/01/favicon.png" type="image/x-icon" />
+    <!---Style CSS-->
+    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/pages/ourServcies.css">
+    <link rel="stylesheet" href="./css/sections/contactSection.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="coverBack"></div>
+    <div class="navbar-mobile">
+        <div class="coverNav" onclick="toggleSidenav();">
+            <button class="close-nav" onclick="closeSidenav();"><img src="./images/close-nav.svg" alt="close"></button>
+        </div>
+        <div class=" align-items-center  justify-content-between  flex-head">
+            <a href="index.html"><img src="./images/logo.svg" class="logo-image" /></a>
+            <div class="hamburger" id="hamburger" onclick="toggleSidenav();">
+                <div class="div1"></div>
+                <div class="div2"></div>
+                <div class="div3"></div>
+            </div>
+        </div>
+        <nav class="nav-mobile">
+            <div class="links">
+                <img src="./images/logo.svg" class="logo" />
+                <div class="fx-links">
+                    <a href="./index.html" class="font-medium active">Home</a>
+                    <div class="border"></div>
+                    <a href="" class="font-medium">About us</a>
+                    <div class="border"></div>
+                    <a href="" class="font-medium">Our services</a>
+                    <div class="border"></div>
+                    <a href="" class="font-medium">Our partners</a>
+                    <div class="border"></div>
+                    <a href="" class="font-medium">Blogs</a>
+                    <div class="border"></div>
+                    <button class="btn-linearGradient colorWhite font-bold"
+                        onclick="window.location.href='contactUs.html'">Contact
+                        Us</button>
+                </div>
+        </nav>
+    </div>
+    <header class="header px-120">
+        <div class="d-flex align-items-center justify-content-between fx-header">
+            <a class="logo-header" href="./index.html"><img src="./images/logo.svg" alt="logo image"></a>
+            <div class="d-flex links-header gap20 align-items-center">
+                <a href="./index.html" class="font-medium  linkStyle">Home</a>
+                <a href="./about.html" class="font-medium linkStyle color-linearGradient">About us</a>
+                <div class="btnServices ">
+                    <button type="button" class="link d-flex align-items-center" data-target="Industries-list">
+                        <span class="font-medium linkStyle">Our services</span>
+                        <img src="./images/arrowDown.svg" alt="arrowDown icon">
+                    </button>
+                    <div class="listServices" id="Industries-list">
+                        <div class="listPart">
+                            <div class="backService backServiceActive"><span class="font-medium">IT management</span>
+                            </div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium active">Database Consulting</a>
+                                <a href="" class="font-medium">Cloud Integration Support</a>
+                                <a href="" class="font-medium">Clouding Storage</a>
+                                <a href="" class="font-medium">Remote Onsite Support</a>
+                                <a href="" class="font-medium">IT Consulting</a>
+                                <a href="" class="font-medium">Cyber Security</a>
+                                <a href="" class="font-medium">Internet & voip</a>
+                                <a href="" class="font-medium">Network Setup & Support</a>
+                                <a href="" class="font-medium">System Management</a>
+                                <a href="" class="font-medium">Disaster Recovery</a>
+                            </div>
+                        </div>
+                        <div class="listPart">
+                            <div class="backService"><span class="font-medium">IT infrastructure</span></div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium">DEVOPS</a>
+                                <a href="" class="font-medium">Infrastructure Management</a>
+                            </div>
+                        </div>
+                        <div class="listPart">
+                            <div class="backService"><span class="font-medium">Data Services</span></div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium">Analysis Services</a>
+                                <a href="" class="font-medium">Custom Analysis Service</a>
+                                <a href="" class="font-medium">Advanced Analytics</a>
+                                <a href="" class="font-medium">BIG DATA</a>
+                                <a href="" class="font-medium">Data Warehouse Modernization</a>
+                                <a href="" class="font-medium">Advanced Analytics</a>
+                            </div>
+                        </div>
+                        <div class="listPart">
+                            <div class="backService"><span class="font-medium">Development</span></div>
+                            <div class="d-flex flex-column fx-listServices gap20">
+                                <a href="" class="font-medium">Web Development</a>
+                                <a href="" class="font-medium">Mobile App Development</a>
+                                <a href="" class="font-medium">Social Media Solutions</a>
+                                <a href="" class="font-medium">E-commerce Solutions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="./ourPartners.html" class="font-medium linkStyle">Our partners</a>
+                <a href="./blogs.html" class="font-medium linkStyle">Blogs</a>
+                <a href="./contactUs.html" class="font-medium linkStyle">Contact us</a>
+            </div>
+            <div class="btn-header"><button class="font-medium btn-linearGradient colorWhite" type="button">Join
+                    us</button></div>
+        </div>
+    </header>
+    <main>
+        <section class="servicesS1">
+            <div class="servicesS1-container px-120">
+                <div class="back-servicesS1">
+                    <div class="servicesS1-texts">
+                        <h1 class="subtitle64px colorThree font-bold">Are you looking <br>
+                            for professional <br>
+                            <span class="color-linearGradient">IT solutions?</span>
+                        </h1>
+                        <p class="mb-0 colorThree subtitle24px font-medium">We provide high quality IT solutions and
+                            services
+                            for all sizes of companies
+                            and
+                            organizations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="servicesS2">
+            <div class="servicesS2-container px-120">
+                <div class="d-flex fx-servicesS2 fxGeneral-cards">
+                    <div class="box fxCard d-flex align-items-center justify-content-center flex-column boxColor1">
+                        <img src="./images/ICTSolutios.svg" alt="ICTSolutios icon">
+                        <h3 class="font-medium subtitle20px">ICT solutios</h3>
+                    </div>
+                    <div class="box fxCard d-flex align-items-center justify-content-center flex-column boxColor2">
+                        <img src="./images/DataSolutions.svg" alt="Data solutions icon">
+                        <h3 class="font-medium subtitle20px">Data solutions</h3>
+                    </div>
+                    <div class="box fxCard d-flex align-items-center justify-content-center flex-column boxColor3">
+                        <img src="./images/ITSolutions.svg" alt="IT Solutions icon">
+                        <h3 class="font-medium subtitle20px">IT solutions</h3>
+                    </div>
+                    <div class="box fxCard d-flex align-items-center justify-content-center flex-column boxColor4">
+                        <img src="./images/AISolutions.svg" alt="AI Solutions icon">
+                        <h3 class="font-medium subtitle20px">AI solutions</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contactSection">
+            <img src="./images/CONTACT-text.svg" alt="CONTACT-text" class="contact-text">
+            <div class="contactSection-container px-120">
+                <div class="contactSection-div d-flex">
+                    <div class="contactSection-texts">
+                        <span class="subtitle24px d-block color-linearGradient font-medium mb24">Work with us</span>
+                        <h1 class=" subtitle48px font-bold mb-0" data-aos="fade-down">Ready to <span
+                                class="color-linearGradient">join us
+                            </span>& <span class="color-linearGradient"><br> level up</span> your
+                            skills</h1>
+                    </div>
+                    <div class="contactSection-buttons d-flex">
+                        <button class="btn-linearGradient" type="button" onclick="window.location.href=''">
+                            <span class="font-semiBold colorWhite">Contact us</span>
+                            <img src="./images/arrow-up-right.svg" alt="arrow-up-right">
+                        </button>
+                    </div>
+                </div>
+                <p class="mb-0 colorTwo style-font">DB Consulting specializes in SQL Server, our tutorial and training
+                    is founded
+                    on
+                    real-life
+                    experience, and we practice
+                    what we preach! In addition to training courses and workshops, we offer</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container px-120">
+            <div class="fxGeneral-cards fxFooter">
+                <div class="fxFooter-part1 fxGeneral-cards-st"><img src="./images/footerImage.png" alt="footer Image">
+                </div>
+                <div class="fxFooter-part2 fxGeneral-cards-st d-flex flex-column text-center">
+                    <img src="./images/logo.svg" alt="code logo" class="logo">
+                    <p class="style-font subtitle24px">leading partner of several heavy weight companies in the ICT
+                        sector.</p>
+                    <div class="d-flex align-items-center fxFooter-icons ">
+                        <a href="" class="transition3s"><img src="./images/facebook-icon.svg" alt="facebook icon"></a>
+                        <a href="" class="transition3s"><img src="./images/instgram-icon.svg" alt="facebook icon"></a>
+                        <a href="" class="transition3s"><img src="./images/twitter-icon.svg" alt="twitter icon"></a>
+                        <a href="" class="transition3s"><img src="./images/linkedin-icon.svg" alt="linkedin icon"></a>
+                    </div>
+                </div>
+                <div class="fxFooter-part3 fxGeneral-cards-st">
+                    <h2 class="font-medium subtitle36px">Contact</h2>
+                    <p class="subtitle24px style-font">Riyadh – Saudi Arabia <br>
+                        Egypt – Cairo</p>
+                    <p class="subtitle24px style-font">Need help? Call us <br>  +(***)*******</p>
+                    <p class="subtitle24px style-font mb-0">support@example.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Jquery Library -->
+    <script src=" ./js/jquery/jquery.min.js">
+    </script>
+    <!-- Slick Slider -->
+    <script src="./js/slick slider/slick.min.js"></script>
+    <script src="./js/slick slider/slick-animation.min.js"></script>
+    <script src="./js/slick slider/sliderAboutPage.js"></script>
+    <!-- Landing Page -->
+    <script src="./js/landingPage.js"></script>
+    <!--Navbar JS-->
+    <script src="./js/navbar-pages.js"></script>
+    <!-- AOS Animation JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
+    <!-- DropDown Faq -->
+    <script src="./js/dropdowns/dropdown-faq.js"></script>
+</body>
+
+</html>
