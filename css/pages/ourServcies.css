@@ -258,7 +258,13 @@
     .servicesS3 .fx-servicesS3 .box h3{font-size: 20px;}
   }
   @media (max-width:614.4px) {
-     .servicesS3 .fx-servicesS3{gap: 16px;}
+     .servicesS3 .fx-servicesS3{
+        gap: 16px;
+        width: 90%;
+        margin: auto;
+        margin-top: 32px;
+    }
+     .servicesS3 .fx-servicesS3 .box{background-position: center;}
     .servicesS3 .fx-servicesS3 .box{
         flex: 1 1 calc(100% - 16px);
         max-width: calc(100% - 0px);
