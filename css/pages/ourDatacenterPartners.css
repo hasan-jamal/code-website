@@ -137,7 +137,11 @@
     .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1 .rotate-p{transform: rotate(0);bottom: 0;}
 }
 @media (max-width:614.4px) {
-    .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1{height: 70px;}
+    .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1 .rotate-p{   
+         writing-mode:inherit;
+}
+.ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .box{padding: 0 24px;}
+    .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1{height: 70px;justify-content: start;padding: 0;}
     .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .box.active .part2 p{line-height: 22px;}
     .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1 p{font-size: 18px;}
 }
