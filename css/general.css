@@ -78,6 +78,7 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
 .gap20{gap: 20px;}
 .gap24{gap: 24px;}
 .mb24{margin-bottom: 24px;}
+.mb16{margin-bottom:16px;}
 @media (min-width:1920px) {
   .px-120{padding: 0 140px;}
   .px-100{padding: 0 120px;}
@@ -89,6 +90,7 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   .px-100{padding: 0 90px;}
   .px-90{padding: 0 70px;}
   .mb24{margin-bottom: 22px;}
+  .mb16{margin-bottom:14px;}
 }
 @media (max-width:1228.8px) {
   .px-120{padding: 0 80px;}
@@ -96,6 +98,7 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   .px-90{padding: 0 50px;}
   .gap24{gap: 20px;}
   .mb24{margin-bottom:18px;}
+  .mb16{margin-bottom:12px;}
 }
 @media (max-width:1024px) {
   .px-120{padding: 0 50px;}
@@ -107,12 +110,14 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   .px-120{padding: 0 30px;}
   .px-100{padding: 0 40px;}
   .gap24{gap:16px;}
+  .mb16{margin-bottom:10px;}
 }
 @media (max-width:768px) {
     .px-80{padding: 0 20px;}
     .px-120{padding: 0 20px;}
     .px-100{padding: 0 20px;}
     .px-90{padding: 0 20px;}
+    .mb16{margin-bottom:14px;}  
 }
 .pre-whiteSpace{white-space: pre;}
 .btn-linearGradient{

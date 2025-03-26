@@ -7,17 +7,82 @@
 .contactSection-container{padding-top: 7rem;}
 .contactSection .contactSection-div{
     position: relative;
-    background-image: url(../../images/Subtract-min.png);
-    background-position: top;
+    background-image: url(../../images/Subtract.png);
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 356px;
     justify-content: space-between;
+    border-radius: 30px;
+}
+.contactSection .contactSection-texts{
+    padding: 0 53px 37px 0;
+    background: #f6fafd;
+    border-radius: 0px 0 30px 0 ;
+    height: max-content;
+    position: relative;
+    width: 38%;
+}
+.contactSection .contactSection-texts::after {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    top: 0px;
+    right: -3rem;
+    transform: rotate(180deg);
+    border-radius: 0 0 30px 0;
+    z-index: 1;
+    box-shadow: 9px 9px #f6fafd;
+}
+.contactSection .contactSection-texts::before {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    bottom: -48px;
+    left: 0rem;
+    transform: rotate(180deg);
+    border-radius: 0 0 30px 0;
+    z-index: 1;
+    box-shadow: 9px 9px #f6fafd;
 }
 .contactSection .contactSection-div .contactSection-buttons{
-    justify-content: end;
-    align-items: end;
-    height: 100%;
+    padding: 18px 0px 0 18px;
+    background: #f6fafd;
+    height: max-content;
+    border-radius: 30px 0 0 0 ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.contactSection .contactSection-div .contactSection-buttons::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    bottom: 0px;
+    left: -3.15rem;
+    transform: rotate(0deg);
+    border-radius: 0 0 30px 0;
+    z-index: 1;
+    box-shadow: 9px 9px #f6fafd;
+}
+.contactSection .contactSection-div .contactSection-buttons::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    top: -50px;
+    right: 0rem;
+    transform: rotate(0deg);
+    border-radius: 0 0 30px 0;
+    z-index: 1;
+    box-shadow: 9px 9px #f6fafd;
 }
 .contactSection .contactSection-div .btn-linearGradient{
     width: 322px;
@@ -26,34 +91,45 @@
 .contactSection p{font-size: 32px;margin-top: 36px;}
 
 @media (min-width:1706.67px) {
-    .contactSection .contactSection-div{height: 407px;}
-       .contactSection .contactSection-div .btn-linearGradient {width: 380px;height: 90px;font-size: 24px;}
+    .contactSection .contactSection-div{height: 457px;}
+       .contactSection .contactSection-div .btn-linearGradient {width: 380px;height: 90px;font-size: 24px;border-radius: 20px;}
     .contactSection .contactSection-div .btn-linearGradient img{width: 30px;}
 }
 @media (min-width:1920px) {
-    .contactSection .contactSection-div{height: 457px;}
+    .contactSection .contactSection-div{height: 500px;}
     .contactSection .contactSection-div .btn-linearGradient {width: 429px;height: 102px;font-size: 30px;gap: 16px;}
     .contactSection .contactSection-div .btn-linearGradient img{width: 40px;}
 }
 @media (min-width:2048px) {
-    .contactSection .contactSection-div{height: 520px;}
+    .contactSection .contactSection-div{height: 550px;}
     .contactSection .contactSection-div .btn-linearGradient {width: 480px;height: 122px;font-size: 35px;}
     .contactSection .contactSection-div .btn-linearGradient img{width: 50px;}
  }
 @media (min-width:2304px) {}
-@media (max-width:1396.36px) {}
-@media (max-width:1228.8px) {}
-@media (max-width:1024px) {}
-@media (max-width:877.71px) {}
-@media (max-width:768px) {}
+@media (max-width:1396.36px) {
+    .contactSection .contactSection-texts{width: 40%;}
+}
+@media (max-width:1228.8px) {
+    .contactSection .contactSection-div .btn-linearGradient {width: 290px;height: 65px;}
+}
+@media (max-width:1024px) {
+    .contactSection .contactSection-texts{width: 42%;}
+     .contactSection .contactSection-div .btn-linearGradient {width: 250px;height: 55px;}
+}
+@media (max-width:877.71px) {
+     .contactSection .contactSection-div .btn-linearGradient {width: 220px;height: 50px;}
+     .contactSection .contactSection-texts {padding: 0 43px 27px 0;}
+}
+@media (max-width:768px) {
+    .contactSection .contactSection-texts{width: 45%;}
+}
 @media (max-width:614.4px) {
     .contactSection .contactSection-div{
         flex-direction: column;
         background-size: cover;
         background-position: right;
     }
-    .contactSection .contactSection-div .contactSection-texts{padding: 2rem;}
-    .contactSection .contactSection-div .contactSection-texts h1{color: #fff;}
+    .contactSection .contactSection-div .contactSection-texts{width: 70%;padding: 0 23px 27px 0;}
     .contactSection .contactSection-div .contactSection-buttons{height: max-content;}
     .contactSection p{font-size: 16px;margin-top: 24px;}
     .contactSection-container{padding-top: 3rem;}
