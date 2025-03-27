@@ -83,7 +83,7 @@
     transform: rotate(180deg);
     border-radius: 0 0 30px 0;
     z-index: 1;
-    box-shadow: 9px 9px #f6fafd;
+    box-shadow: 9px 9px #f7f0f3;
 }
 .blogPageS1 .boxEmpty::before {
     content: "";
@@ -96,7 +96,7 @@
     transform: rotate(180deg);
     border-radius: 0 0 30px 0;
     z-index: 1;
-    box-shadow: 9px 9px #f6fafd;
+    box-shadow: 9px 9px #f7f0f3;
 }
   @media (min-width:1706.67px) {}
   @media (min-width:1920px) {

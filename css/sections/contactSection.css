@@ -21,7 +21,7 @@
     border-radius: 0px 0 30px 0 ;
     height: max-content;
     position: relative;
-    width: 38%;
+    width:42%;
 }
 .contactSection .contactSection-texts::after {
     content: "";
@@ -107,13 +107,12 @@
  }
 @media (min-width:2304px) {}
 @media (max-width:1396.36px) {
-    .contactSection .contactSection-texts{width: 40%;}
 }
 @media (max-width:1228.8px) {
     .contactSection .contactSection-div .btn-linearGradient {width: 290px;height: 65px;}
 }
 @media (max-width:1024px) {
-    .contactSection .contactSection-texts{width: 42%;}
+    .contactSection .contactSection-texts{width: 44%;}
      .contactSection .contactSection-div .btn-linearGradient {width: 250px;height: 55px;}
 }
 @media (max-width:877.71px) {
@@ -121,7 +120,7 @@
      .contactSection .contactSection-texts {padding: 0 43px 27px 0;}
 }
 @media (max-width:768px) {
-    .contactSection .contactSection-texts{width: 45%;}
+    .contactSection .contactSection-texts{width: 50%;}
 }
 @media (max-width:614.4px) {
     .contactSection .contactSection-div{
