@@ -111,9 +111,6 @@
 @media (min-width:2048px) { 
      .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1{width: 220px;height:700px;}
 }
-@media (max-width:1396.36px) {
-  
-}
 @media (max-width:1228.8px) {
     .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .box.active{padding: 40px;}
     .ourDatacenterPartnersS1 .fx-ourDatacenterPartnersS1 .part1 p{font-size: 28px;}
