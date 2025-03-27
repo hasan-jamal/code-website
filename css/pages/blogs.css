@@ -381,5 +381,6 @@
     }
     .blogPageS3 .pagination .next{height: 50px;width: 100px;}
     .blogPageS3 .pagination{margin-top: 24px;}
+    .blogPageS3 .pagination{gap: 6px;}
   }
   @media (max-width:512px) {}
