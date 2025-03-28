@@ -182,7 +182,7 @@
     transform: rotate(0deg);
     border-radius: 0px 0px 30px 0;
     z-index: 1;
-    box-shadow: 5px 13px #f6fafd;
+    box-shadow: 5px 13px #fff;
 }
 .blogPageS2 .fx-blogPageS2 .fxCard:hover .fxCard-text::before{
     box-shadow: 5px 13px #E64A62;
