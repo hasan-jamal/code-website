@@ -3,26 +3,25 @@
   position: relative;
   z-index: 999;
   direction: rtl;
-  height: 14px;
+  height: max-content;
   cursor: pointer;
 }
 .hamburger:hover {
   cursor: pointer;
 }
 .hamburger div {
-  background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
+  background:#4F4F4F;
   border-radius: 1px;
   height: 3px;
-  width: 22.42px;
 }
 .hamburger .div1{
   width: 25.11px;
 }
 .hamburger .div2 {
-  width: 18.63px;
+  width: 12.63px;
 }
 .hamburger .div3{
-  width: 12.55px;
+  width: 18.55px;
 }
 .hamburger div:not(:last-child) {
   margin-bottom: 6px;
@@ -34,14 +33,15 @@
   display: inline-block;
   position: fixed;
   height: 100vh;
-  width:310px;
-  left: -310px;
-  transition: transform 0.3s;
+  width: 100%;
+  left: -100%;
+  transform: translateX(-100%);
+  transition: transform 0.4s ease-in-out;
   z-index: 9999;
   top: 0;
   font-family: 'Inter';
   overflow-y: scroll;
-  padding: 32px 24px 32px 24px;
+  padding: 24px;
 }
 .nav-mobile::-webkit-scrollbar-track
 {
@@ -62,10 +62,10 @@
 }
 .nav-mobile .logo {
   text-align: center;
-  width: 70%;
-  margin: 0 auto 3rem auto;
+  width: 40%;
   display: block;
 }
+.nav-mobile .fxLogo{margin-bottom:48px;}
 .nav-mobile .logo img {
   border-radius: 50%;
   width: 100%;
@@ -124,7 +124,8 @@ nav, .hamburger, .coverNav {
   display: none;
 }
 .sidenav-active nav, .sidenav-active .coverNav {
-  transform: translateX(310px);
+  transform: translateX(0px);
+  left: 0;
 }
 .navbar-mobile{
   display: none;
@@ -154,7 +155,7 @@ header .fx-header{
 header .fx-header .links-header .linkStyle{
   text-decoration: none;
   color: #001C33;
-  font-size: 22px;
+  font-size: 18px;
 }
 header .fx-header .links-header button{background: none;}
 header .fx-header .btn-header button{

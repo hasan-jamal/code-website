@@ -11,12 +11,6 @@ padding-top: 4rem;}
     .contactUsS1 .contactUsS1-text p{line-height: 45px;}
     .contactUsS1 .contactUsS1-text h1{margin-bottom: 40px;}
   }
-  @media (min-width:1920px) {}
-  @media (min-width:2048px) { }
-  @media (min-width:2304px) {}
-  @media (max-width:1396.36px) {}
-  @media (max-width:1228.8px) {}
-  @media (max-width:1024px) {}
   @media (max-width:877.71px) {
     .contactUsS1{margin: 60px 0;}
     .contactUsS1 .contactUsS1-text{padding-top: 2rem;}
@@ -65,8 +59,6 @@ padding-top: 4rem;}
   @media (min-width:2048px) { 
     .contactUsS2 .box img{width: 80px;}
   }
-  @media (min-width:2304px) {}
-  @media (max-width:1396.36px) {}
   @media (max-width:1228.8px) {
     .contactUsS2 .contactUsS2-part2{width: 50%;}
   }
@@ -190,19 +182,14 @@ padding-top: 4rem;}
      .contactUsS3 .boxContact .fx-boxContact .boxContact-form form button{height: 70px;}
      .contactUsS3 .boxContact .fx-boxContact .boxContact-form form textarea{height: 180px;}
   }
-  @media (min-width:2048px) { }
-  @media (min-width:2304px) {}
-  @media (max-width:1396.36px) {}
   @media (max-width:1228.8px) {
     .contactUsS3 .boxContact .fx-boxContact{padding: 40px;width: 70%;gap: 24px;}
     .contactUsS3 .boxContact .back-boxContact{width: 90%;}
   }
-  @media (max-width:1024px) {}
   @media (max-width:877.71px) {
         .contactUsS3 .boxContact .fx-boxContact{padding: 48px;width: 90%;gap: 24px;}
         .contactUsS3 .boxContact .back-boxContact{width: 100%;}
   }
-  @media (max-width:768px) {}
   @media (max-width:614.4px) {
     .contactUsS3{margin-top: 70px;}
     .contactUsS3 .contactUsS3-titles{width: 90%;}
@@ -212,4 +199,3 @@ padding-top: 4rem;}
     .contactUsS3 .boxContact .fx-boxContact .boxContact-text,
     .contactUsS3 .boxContact .fx-boxContact .boxContact-form{width: 100%;}
   }
-  @media (max-width:512px) {}

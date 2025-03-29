@@ -257,7 +257,7 @@
   }
   @media (max-width:614.4px) {
      .servicesS3 .fx-servicesS3{
-        gap: 16px;
+        gap: 24px;
         width: 90%;
         margin: auto;
         margin-top: 32px;
@@ -268,7 +268,7 @@
         max-width: calc(100% - 0px);
     }
     .servicesS3 .fx-servicesS3 .box h3{font-size: 24px;}
-    .servicesS3 .fx-servicesS3 .box{height:200px;}
+    .servicesS3 .fx-servicesS3 .box{height:250px;}
     .servicesS3 .fx-servicesS3 .box .divArrow img{width: 60px;height: 60px;}
   }
   @media (max-width:512px) {}
