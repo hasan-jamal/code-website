@@ -13,33 +13,29 @@ function removeInterval() {
   document.removeEventListener("click", removeInterval);
 }
 // //////////////////////////////////////////////////////////////////////////////////////
-document.querySelectorAll(".btnServices").forEach((boxLink) => {
-  const link = boxLink.querySelector(".link");
-  if (!link) return;
+document.addEventListener("DOMContentLoaded", function () {
+  const btnServicesHeader = document.querySelector(".btnServicesHeader");
+  const listServicesHeader = document.querySelector(".listServicesHeader");
 
-  const targetId = link.getAttribute("data-target");
-  const list = document.getElementById(targetId);
+  btnServicesHeader.addEventListener("mouseenter", function () {
+    listServicesHeader.classList.add("active");
+  });
 
-  if (!list) return;
+  btnServicesHeader.addEventListener("mouseleave", function () {
+    listServicesHeader.classList.remove("active");
+  });
+});
 
-  const showList = () => {
-    list.style.display = "flex";
-    list.classList.add("active");
-  };
+///////////////////////////////////////
+$(document).ready(function () {
+  $(".btnServicesMb .link").click(function (e) {
+    e.preventDefault();
 
-  const hideList = () => {
-    list.classList.remove("active");
-    list.addEventListener(
-      "transitionend",
-      () => {
-        if (!list.classList.contains("active")) {
-          list.style.display = "none";
-        }
-      },
-      { once: true }
-    );
-  };
+    var targetId = $(this).data("target");
+    var targetList = $("#" + targetId);
 
-  boxLink.addEventListener("mouseenter", showList);
-  boxLink.addEventListener("mouseleave", hideList);
+    targetList.slideToggle(300);
+
+    $(this).toggleClass("active");
+  });
 });

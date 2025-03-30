@@ -87,6 +87,17 @@
 .nav-mobile a span:hover {
   	color: #000 ;
 }
+.nav-mobile .links .btnServicesMb .link{
+  color: #4F4F4F;
+  font-size: 1rem;
+  background: transparent;
+}
+.nav-mobile .listServices{
+  margin-top: 16px;
+  padding-left: 16px;
+  display: none;
+} 
+.nav-mobile .listServices a{font-size: 14px;}
 .nav-mobile .links a.active{
   background: linear-gradient(90deg, #E64A62 0%, #F9863D 100%);
   background-clip: text;
@@ -161,7 +172,7 @@ header .fx-header .btn-header button{
   width: 164px;
   font-size: 20px;
 }
-header .btnServices .listServices{
+header .btnServicesHeader .listServicesHeader{
   padding: 24px;
   border-radius: 10px;
   background: #FFF;
@@ -175,14 +186,14 @@ header .btnServices .listServices{
   transition: opacity 0.3s ease, transform 0.3s ease;
   display: none;
 }
-header .btnServices .listServices.active{
+header .btnServicesHeader .listServicesHeader.active{
   opacity: 1;
   display: flex;
 }
-header .btnServices .listServices .listPart{
+header .btnServicesHeader .listServicesHeader .listPart{
   width:215px;
 }
-.header .btnServices .listServices .backService{
+.header .btnServicesHeader .listServicesHeader .backService{
   background-image: url(../images/back-listService.svg);
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -192,31 +203,31 @@ header .btnServices .listServices .listPart{
   position: relative;
   border-radius: 10px;
 }
-.header .btnServices .listServices .backService span{
+.header .btnServicesHeader .listServicesHeader .backService span{
   position: absolute;
   bottom: 1.4rem;
   left: 1rem;
   color: #FFF;
   font-size: 18px;
 }
-.header .btnServices .listServices .backServiceActive{
+.header .btnServicesHeader .listServicesHeader .backServiceActive{
   background-image: url(../images/backServiceActive.svg);
 }
-header .btnServices .fx-listServices a{
+header .btnServicesHeader .fx-listServices a{
   color: #000;
   font-size: 16px;
   display: block;
   text-decoration: none;
   transition: 0.3s;
 }
-header .btnServices .fx-listServices a:hover{
+header .btnServicesHeader .fx-listServices a:hover{
   background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transform: scale(0.96);
 }
-header .btnServices .fx-listServices a.active{
+header .btnServicesHeader .fx-listServices a.active{
   background: linear-gradient(270deg, #E74B62 0%, #FAA26B 100%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -246,11 +257,11 @@ header .btnServices .fx-listServices a.active{
   header .fx-header .btn-header button{width: 130px;font-size: 16px;}
   header .fx-header .logo-header img{width: 130px;}
   header .fx-header{padding: 50px 0 0px 0;}
-  header .btnServices .listServices .listPart{width:185px;}
-  header .btnServices .fx-listServices a{font-size: 12px;}
-  .header .btnServices .listServices .backService span{font-size: 15px;}
-  .header .btnServices .listServices .backService{height: 80px;margin-bottom: 16px;}
-  header .btnServices .listServices{gap: 25px;}
+  header .btnServicesHeader .listServicesHeader .listPart{width:185px;}
+  header .btnServicesHeader .fx-listServices a{font-size: 12px;}
+  .header .btnServicesHeader .listServicesHeader .backService span{font-size: 15px;}
+  .header .btnServicesHeader .listServicesHeader .backService{height: 80px;margin-bottom: 16px;}
+  header .btnServicesHeader .listServicesHeader{gap: 25px;}
   header .fx-header .links-header button img{width: 20px;}
 }
 @media (max-width:1024px) {
@@ -259,11 +270,11 @@ header .btnServices .fx-listServices a.active{
   header .fx-header .btn-header button{width: 100px;font-size: 14px;height: 32px;}
   header .fx-header .logo-header img{width: 100px;}
   header .fx-header{padding: 30px 0 0px 0;}
-  header .btnServices .listServices .listPart{width:160px;}
-  header .btnServices .fx-listServices a{font-size: 10px;}
-  .header .btnServices .listServices .backService span{font-size: 13px;}
-  .header .btnServices .listServices .backService{height: 70px;}
-  header .btnServices .listServices{gap: 20px;}
+  header .btnServicesHeader .listServicesHeader .listPart{width:160px;}
+  header .btnServicesHeader .fx-listServices a{font-size: 10px;}
+  .header .btnServicesHeader .listServicesHeader .backService span{font-size: 13px;}
+  .header .btnServicesHeader .listServicesHeader .backService{height: 70px;}
+  header .btnServicesHeader .listServicesHeader{gap: 20px;}
     header .fx-header .links-header button img{width: 15px;}
 }
 @media (max-width:877.71px) {
@@ -271,10 +282,10 @@ header .btnServices .fx-listServices a.active{
   header .fx-header .btn-header button{width: 80px;font-size: 13px;height: 32px;}
   header .fx-header .logo-header img{width: 80px;}
   header .fx-header{gap: 70px;}
-  header .btnServices .listServices .listPart{width: 125px;}
-  .header .btnServices .listServices .backService span{font-size: 11px;}
-  header .btnServices .fx-listServices a{font-size: 9px;}
-  header .btnServices .listServices{gap: 15px;}
+  header .btnServicesHeader .listServicesHeader .listPart{width: 125px;}
+  .header .btnServicesHeader .listServicesHeader .backService span{font-size: 11px;}
+  header .btnServicesHeader .fx-listServices a{font-size: 9px;}
+  header .btnServicesHeader .listServicesHeader{gap: 15px;}
 }
 @media (max-width:768px) {
   header .fx-header .links-header .linkStyle{font-size: 10px;}

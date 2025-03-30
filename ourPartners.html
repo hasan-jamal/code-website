@@ -43,7 +43,30 @@
                     <div class="border"></div>
                     <a href="./about.html" class="font-medium ">About us</a>
                     <div class="border"></div>
-                    <a href="./ourServcies.html" class="font-medium ">Our services</a>
+                    <div class="btnServicesMb">
+                        <button type="button" class="link d-flex align-items-center justify-content-between w-100"
+                            data-target="Industries-list">
+                            <span class="font-medium linkStyle" onclick="window.location.href='ourServcies.html'">Our
+                                services</span>
+                            <img src="./images/arrowDown.svg" alt="arrowDown icon">
+                        </button>
+                        <div class="listServices" id="Industries-list">
+                            <div class="listPart">
+                                <div class="d-flex flex-column fx-listServices gap20">
+                                    <a href="" class="font-medium">Database Consulting</a>
+                                    <a href="./cloudIntegration.html" class="font-medium">Cloud Integration Support</a>
+                                    <a href="" class="font-medium">Clouding Storage</a>
+                                    <a href="" class="font-medium">Remote Onsite Support</a>
+                                    <a href="" class="font-medium">IT Consulting</a>
+                                    <a href="" class="font-medium">Cyber Security</a>
+                                    <a href="" class="font-medium">Internet & voip</a>
+                                    <a href="" class="font-medium">Network Setup & Support</a>
+                                    <a href="" class="font-medium">System Management</a>
+                                    <a href="" class="font-medium">Disaster Recovery</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="border"></div>
                     <a href="./ourPartners.html" class="font-medium active">Our partners</a>
                     <div class="border"></div>
@@ -61,12 +84,13 @@
             <div class="d-flex links-header gap20 align-items-center">
                 <a href="./index.html" class="font-medium  linkStyle">Home</a>
                 <a href="./about.html" class="font-medium linkStyle ">About us</a>
-                <div class="btnServices ">
-                    <button type="button" class="link d-flex align-items-center" data-target="Industries-list">
+                <div class="btnServicesHeader ">
+                    <button type="button" class="link d-flex align-items-center" data-target="Industries-list"
+                        onclick="window.location.href='ourServcies.html'">
                         <span class="font-medium linkStyle">Our services</span>
                         <img src="./images/arrowDown.svg" alt="arrowDown icon">
                     </button>
-                    <div class="listServices" id="Industries-list">
+                    <div class="listServicesHeader" id="Industries-list">
                         <div class="listPart">
                             <div class="backService backServiceActive"><span class="font-medium">IT management</span>
                             </div>
