@@ -204,9 +204,9 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
  }
  @media (min-width:2304px) {}
 @media (max-width:1396.36px) {
-  .subtitle64px{font-size: 60px;}
-  .subtitle48px{font-size: 45px;}
-  .subtitle40px{font-size: 38px;}
+  .subtitle64px{font-size: 56px;}
+  .subtitle48px{font-size: 40px;}
+  .subtitle40px{font-size: 32px;}
   .subtitle24px{font-size: 21px;}
   .subtitle36px{font-size: 34px;}
   .subtitle16px{font-size: 14px;}
@@ -215,9 +215,9 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
 
 }
 @media (max-width:1228.8px) {
-  .subtitle64px{font-size: 52px;}
-  .subtitle48px{font-size: 40px;}
-  .subtitle40px{font-size: 35px;}
+  .subtitle64px{font-size: 48px;}
+  .subtitle48px{font-size: 32px;}
+  .subtitle40px{font-size: 24px;}
   .subtitle24px{font-size: 18px;}
   .subtitle36px{font-size: 30px;}
   .subtitle20px{font-size: 16px;} 
@@ -225,9 +225,8 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   .subtitle18px{font-size: 13px;}
 }
 @media (max-width:1024px) {
-  .subtitle64px{font-size: 45px;}
-  .subtitle48px{font-size: 35px;}
-  .subtitle40px{font-size: 30px;}
+  .subtitle64px{font-size: 40px;}
+  .subtitle48px{font-size: 24px;}
   .subtitle24px{font-size: 16px;}
   .subtitle36px{font-size: 26px;}
   .subtitle16px{font-size: 14px;}
@@ -235,10 +234,9 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
   .subtitle20px{font-size: 14px;} 
 }
 @media (max-width:877.71px) {
-  .subtitle64px{font-size: 39px;}
+  .subtitle64px{font-size: 32px;}
   .subtitle48px{font-size: 32px;}
-  .subtitle40px{font-size: 26px;}
-  .subtitle24px{font-size: 15px;}
+  .subtitle24px{font-size: 14px;}
   .subtitle36px{font-size: 24px;}
   .subtitle16px{font-size: 11px;}
   .subtitle20px{font-size: 13px;} 
@@ -246,13 +244,15 @@ p,button,a{font-size: 1rem;}.text-center{text-align: center;}.mb-0{margin-bottom
 }
 @media (max-width:768px) {
   .subtitle64px{font-size: 35px;}
+  .subtitle48px{font-size: 20px;}
   .subtitle20px{font-size: 12px;} 
 }
 @media (max-width:614.4px) {
    .subtitle36px{font-size: 20px;line-height: 30px;}
-    .subtitle24px{font-size: 17px;}  
-   .subtitle64px{font-size: 32px;}
+  .subtitle24px{font-size: 17px;}  
+  .subtitle64px{font-size: 32px;}
   .subtitle18px{font-size: 13px;}
+  .subtitle48px{font-size: 24px;}
 }
 @media (max-width:512px) {
   .subtitle48px br{display: none;}
