@@ -69,7 +69,7 @@ $(document).ready(function () {
         "Enlightened Health AI takes your wellness journey to new heights with advanced predictive analytics. Gain access to intelligent health solutions that illuminate the path to a healthier, more informed you.",
       shortText:
         "Enlightened Health AI takes your wellness journey to new heights with advanced predictive analytics...",
-      img: "./images/sectionFour-slide1.svg",
+      img: "./images/sectionFour-slide1.png",
     },
     {
       title: "AI-Powered Wellness Solutions",
@@ -77,7 +77,7 @@ $(document).ready(function () {
         "Discover AI-driven insights that help you take control of your health and well-being with personalized recommendations and actionable health data.",
       shortText:
         "Discover AI-driven insights that help you take control of your health and well-being...",
-      img: "./images/sectionFour-slide2.svg",
+      img: "./images/sectionFour-slide2.png",
     },
     {
       title: "Transforming Healthcare with AI",
@@ -85,7 +85,7 @@ $(document).ready(function () {
         "Our cutting-edge AI technology is reshaping healthcare, providing smarter and faster solutions for both patients and medical professionals.",
       shortText:
         "Our cutting-edge AI technology is reshaping healthcare, providing smarter and faster solutions...",
-      img: "./images/sectionFour-slide3.svg",
+      img: "./images/sectionFour-slide3.png",
     },
     {
       title: "Next-Gen AI for a Healthier Future",
@@ -93,7 +93,7 @@ $(document).ready(function () {
         "Explore the future of AI in healthcare and how it enhances daily life for a better tomorrow with advanced data analysis and predictive insights.",
       shortText:
         "Explore the future of AI in healthcare and how it enhances daily life for a better tomorrow...",
-      img: "./images/sectionFour-slide4.svg",
+      img: "./images/sectionFour-slide4.png",
     },
   ];
 
