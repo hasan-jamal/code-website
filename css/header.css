@@ -27,9 +27,7 @@
   margin-bottom: 6px;
 }
 .nav-mobile {
-  background-image: url(../images/Home.svg);
-  background-position: top;
-  background-size: cover;
+  background-color: #F9FAFC;
   display: inline-block;
   position: fixed;
   height: 100vh;
@@ -78,23 +76,22 @@
 .nav-mobile .links .border{
   height: 0.5px;
   width: 100%;
-  background-color: #8288f8 ;
+  background-color: #F3F3F3 ;
 }
 .nav-mobile .links a {
   text-decoration: none;
-  color: #000;
+  color: #4F4F4F;
   font-size: 1rem;
-  letter-spacing: 1px;
 }
 .nav-mobile a:hover ,
 .nav-mobile a span:hover {
   	color: #000 ;
 }
 .nav-mobile .links a.active{
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #000;
-    font-size: 1.1rem;
+  background: linear-gradient(90deg, #E64A62 0%, #F9863D 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-mobile .links a svg{
   width: 24px;
@@ -134,9 +131,9 @@ nav, .hamburger, .coverNav {
   width: 100%;
 }
 .navbar-mobile .btn-linearGradient{
-  height: 50px;
-  font-size: 17px;
-  font-weight: bold;
+    height: 55px;
+    font-size: 16px;
+    border-radius: 30px;
 }
 .navbar-mobile .flex-head{
   padding: 24px 20px;
